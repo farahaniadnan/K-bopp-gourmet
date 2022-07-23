@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-BOPP GOURMET</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="shortcut icon" type="image/png" href="Images/favicon-16x16.png">
+    <link rel="stylesheet" href="style css/style.css">
+</head>
+<body>
+    
+<!-- header section starts-->
+<header>
+    <a href="#" class="logo"><i class="fas fa-utensils"></i>make-eat-enjoy</a>
+    <nav class="navbar">
+        <a class="active" href="#home">home</a>
+        <a href="#dishes">dishes</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#review">review</a>
+        <a href="#order">order</a>
+    </nav>
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
+</header>
+<!-- header section ends-->
+
+<!-- search form  -->
+<form action="" id="search-form">
+    <input type="search" placeholder="search here..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+<!-- home section starts  -->
+<section class="home" id="home">
+    <div class="swiper-container home-slider">
+        <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>RAMEN (라면)</h3>
+                    <p>It consists of Chinese-style alkaline wheat noodles served in a meat-based broth,
+                        often flavoured with soy sauce or miso, and uses toppings such as sliced beef,
+                        nori, menma, and scallions.</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="images/dish1.jpeg" alt="ramyeon" height="510" width="100">
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>TTEOBOKKI<br>(떡볶이)</h3>
+                    <p>This iconic red-orange street food is so popular there's an entire part of Seoul 
+                        just devoted to the steamed and sliced rice cakes (tteok), cooked with fish cakes (oden) 
+                        and scallions in a sweet and spicy sauce made of chili paste. </p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="images/dish2.jpeg" alt="tteokbokki" height="510" width="100">
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>KIMCHI (김치)</h3>
+                    <p>Dating to the Silla Dynasty (around 2,000 years ago), kimchi is the beloved spicy sidekick at 
+                        every Korean table. It's made by salting and preserving fermented cabbage in a bed of pepper, 
+                        garlic, ginger and scallion.</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="images/kimchi.JPG" alt="kimchi" height="510" width="100">
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+<!-- home section ends -->
+
+<!-- dishes section starts  -->
+<section class="dishes" id="dishes">
+    <h3 class="sub-heading"> our dishes </h3>
+    <h1 class="heading"> popular dishes </h1>
+    <div class="box-container">
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish1.jpeg" alt="ramen" width="200" height="200">
+            <h3>Ramen</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM10.50</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish2.jpeg" alt="tteokbokki" width="200" height="200">
+            <h3>Tteokbokki</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <span>RM8</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish3.jpeg" alt="bimbimbap" width="200" height="200">
+            <h3>Bibimbap</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <span>RM22</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish4.jpeg" alt="ox bone soup" width="200" height="200">
+            <h3>Ox Bone Soup</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <span>RM20</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish5.jpeg" alt="kimbap" width="200" height="200">
+            <h3>Kimbap</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM15</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish6.jpeg" alt="spicy korean chicken" width="200" height="200">
+            <h3>Spicy Korean Chicken</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <span>RM13.50</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    </div>
+</section>
+<!-- dishes section ends -->
+
+<!-- about section starts  -->
+<section class="about" id="about">
+    <h3 class="sub-heading"> about us </h3>
+    <h1 class="heading"> why choose us? </h1>
+    <div class="row">
+        <div class="image">
+            <img src="images/about-img.png" alt="">
+        </div>
+        <div class="content">
+            <h3>WE ARE THE BEST KOREAN FOOD RESTAURANT ALL ACROSS MALAYSIA</h3>
+            <p>It's not only delicious, it's healthy</p>
+            <p>Vegetables are widely used in everything from side dishes to mains that good for your natural flavourings.
+                You won't find much fried food in Korean cuisine. Instead, we have grilling, stir-frying, fermenting and stewing are 
+                the common techniques for preparing our dishes.</p>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-shipping-fast"></i>
+                    <span>free delivery</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-dollar-sign"></i>
+                    <span>easy payments</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-headset"></i>
+                    <span>24/7 service</span>
+                </div>
+            </div>
+            <a href="#" class="btn">learn more</a>
+        </div>
+    </div>
+</section>
+<!-- about section ends -->
+
+<!-- menu section starts  -->
+<section class="menu" id="menu">
+    <h3 class="sub-heading"> our menu </h3>
+    <h1 class="heading"> today's speciality </h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="images/menu1.jpeg" alt="Hangover Stew">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>Hangover Stew</h3>
+                <p>Made from a beef broth, with cabbage, bean sprouts, radish and chunks of congealed ox blood, 
+                    the deeply satisfying taste does wonders to kick-start your sluggish brain in the morning.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">RM35</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/menu2.jpeg" alt="Army Stew">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>Army Stew</h3>
+                <p>This hodgepodge stew of sausages, spam, American cheese, instant noodles, tteok, and 
+                    assorted vegetables dates back to the aftermath of the Korean War.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">RM55</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/menu3.jpeg" alt="Rabokki">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Rabokki</h3>
+                <p>A type of tteokbokki, with added ramyeon noodles. It is a street food commonly sold in 
+                    bunsikjip. As other tteokbokki dishes, eomuk and boiled eggs are a common addition. Cream 
+                    sauce or western-style chili sauce may be used instead of gochujang.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">RM15</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/menu4.jpeg" alt="Samgetang">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>Samgetang</h3>
+                <p>The most representative of these is samgyetang, a thick, glutinous soup with a whole stuffed 
+                    chicken floating in its boiling depths.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">RM35.50</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/menu5.jpeg" alt="Kimchi Stew">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>Kimchi Stew</h3>
+                <p>In kimchi-jjigae, red cabbage kimchi is chopped, sauteed in oil, and cooked with tofu, 
+                    cellophane noodles, beef(sometimes tuna), and other vegetables.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">RM15</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/menu6.jpeg" alt="Halal-Gamjatang">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>Halal-Gamjatang</h3>
+                <p>This hearty dish features potatoes (gamja), scallions, ground perilla seed, and bits of lamb 
+                    cooked in a lamb bone broth. </p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">RM19</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/menu7.jpeg" alt="Jjambbong Mixed Seafood">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>Jjambbong Mixed Seafood</h3>
+                <p>This dish is the soupier, spicier counterpart to jjajangmyeon and together they form the core of 
+                    Korean Chinese home delivery cuisine.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">RM25</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/menu8.jpeg" alt="Bingsu">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>Bingsu</h3>
+                <p>Classic patbingsu, however, is too beloved to lose ground to the newcomers, then the come 
+                    summer, every bakery and fast food restaurant in Seoul will have patbingsu on its dessert menu.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">RM16</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/menu9.jpeg" alt="Mix Cocktail">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Mix Cocktail</h3>
+                <p>Different halal mixed cocktails recipes to be explore by our customers, we replace the usage of 
+                    vodka and wine with soda and carbonated grape drinks.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">RM11.50</span>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- menu section ends -->
+
+<!-- review section starts  -->
+<section class="review" id="review">
+    <h3 class="sub-heading"> customer's review </h3>
+    <h1 class="heading"> what they say </h1>
+    <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/review1.jpeg" alt="review 1">
+                    <div class="user-info">
+                        <h3>hajjah senah</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Osah ea la anak acik ni bawak oghang kampong poie sinia makan ontah papo, tapi buleh tahan 
+                    yo ghaso ea jugak, tokak den nak yo tolan, kot iyo kodai nia buleh tambah lado api pun sodap. 
+                    Buleh la acik datang laie</p>
+            </div>
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/review2.jpeg" alt="review 2">
+                    <div class="user-info">
+                        <h3>haji nan</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Pakcik ni tokak santan, makanan lomak lomak lado api, x buleh pakcik nak tolan, tapi ado ais 
+                    krim tah apo namo bisu tu, haaa itu sodap, pakcik suko, tapi makan lagi, silap-silap hilang 
+                    kaki pakcik nanti allahu</p>
+            </div>
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/review3.jpeg" alt="review 3">
+                    <div class="user-info">
+                        <h3>aunty aida</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Hi!!! Eh, Aunty Aida nak bagi review ni, aunty berkenan tngk services yang lady staff muka mcm 
+                    comei comei cina tu, lemah lembut je orangnya, rasa </p>
+            </div>
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/review4.jpeg" alt="review 4">
+                    <div class="user-info">
+                        <h3>uncle sham</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Ha, uncle really jatuh cinta dngn dish jjambbong mixed seafood tu sbb they serve us the best 
+                    seafood, large and fresh, uncle and especially aunty really love it tho, the dish really meets the 
+                    price, boleh la lgi uncle bwk aunty, xdela mahal sngat</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- review section ends -->
+
+<!-- order section starts  -->
+<section class="order" id="order">
+    <h3 class="sub-heading"> order now </h3>
+    <h1 class="heading"> free and fast </h1>
+    <form action="">
+        <div class="inputBox">
+            <div class="input">
+                <span>your name</span>
+                <input type="text" placeholder="enter your name">
+            </div>
+            <div class="input">
+                <span>your number</span>
+                <input type="number" placeholder="enter your number">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>your order</span>
+                <input type="text" placeholder="enter food name">
+            </div>
+            <div class="input">
+                <span>additional food</span>
+                <input type="test" placeholder="extra with food">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>how musch</span>
+                <input type="number" placeholder="how many orders">
+            </div>
+            <div class="input">
+                <span>date and time</span>
+                <input type="datetime-local">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>your address</span>
+                <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="input">
+                <span>your message</span>
+                <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+        <input type="submit" value="order now" class="btn">
+    </form>
+</section>
+<!-- order section ends -->
+
+<!-- footer section starts  -->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>locations</h3>
+            <a href="http://myeongdongtopokki.com/">Sunway Putra</a>
+            <a href="http://myeongdongtopokki.com/ ">Parading Mall</a>
+            <a href="https://www.google.com/aclk?sa=l&ai=DChcSEwjyw7r7pI75AhVIDisKHW_CChkYABAAGgJzZg&sig=AOD64_2WhpZJ7WHDiqe33PYRDZWfxrcUnQ&q=&ctype=99&ved=2ahUKEwj2mbL7pI75AhWgumMGHYNxBr4QhKwBegQIAhAW&adurl= ">Rawang</a>
+            <a href="https://m.facebook.com/pages/category/Korean-Restaurant/MyeongDong-Topokki-101111281420878/">Melaka</a>
+            <a href="http://www.myeongdongtopokki.com/ ">Seremban</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">dishes</a>
+            <a href="#">about</a>
+            <a href="#">menu</a>
+            <a href="#">review</a>
+            <a href="#">order</a>
+        </div>
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#">+06-12345</a>
+            <a href="#">k-boppgourmet@gmail.com</a>
+            <a href="#">Sunway Putra, Malaysia - 50350</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="https://www.facebook.com/myeongdongtopokki/">facebook</a>
+            <a href="https://twitter.com/MDTopokki?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">twitter</a>
+            <a href="https://www.instagram.com/myeongdongtopokki/?hl=en">instagram</a>
+            <a href="https://www.tiktok.com/@myeongdongtopokki?lang=en">tiktok</a>
+        </div>
+    </div>
+    <div class="credit"> copyright @ 2022 by <span>K-BOPP GOURMET</span> </div>
+</section>
+<!-- footer section ends -->
+
+<!-- loader part  -->
+<div class="loader-container">
+    <img src="images/loader.gif.gif" alt="">
+</div>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script/script.js"></script>
+</body>
+</html>
